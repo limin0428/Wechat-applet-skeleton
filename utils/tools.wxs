@@ -1,0 +1,8 @@
+// 用来增强wxml能力
+// 声明变量不支持let、const  不支持箭头函数   不支持对象同名简写 { s }  必须{ s: s}
+var render = function (str) {
+  return 'lm' + str 
+}
+module.exports = {
+  render: render
+}
